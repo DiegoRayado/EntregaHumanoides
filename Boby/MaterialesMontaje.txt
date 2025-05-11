@@ -1,0 +1,5 @@
+Tornillos Métrica 3
+Servo Micro 9g (Modelo usado:KY66)
+Cables 
+Sistema de alimnetación de 5V (Minimo:1.15A)
+Placa de desarrollo (Modelo usado: Arduino Nano V3)

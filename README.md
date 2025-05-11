@@ -70,20 +70,6 @@ Con estas modificaciones se consigue que sea capaz de hacer ida-vuelta-ida
 </ol>
 
 
-
-### Lógica del Programa
-1. **Inicialización**: Se configuran los dispositivos y sensores del robot.
-2. **Detección de objetos verdes**: Se analiza la imagen capturada por la cámara para detectar la presencia de color verde.
-3. **Seguimiento del objeto**:
-   - Si el objeto verde se encuentra en la izquierda, el robot gira hacia la izquierda.
-   - Si el objeto está en la derecha, el robot gira a la derecha.
-   - Si el objeto está en el centro, el robot avanza en línea recta.
-4. **Seguimiento de pared**:
-   - Si el robot no detecta nada verde sigue la pared. 
-5. **Detención**: Si el porcentaje de verde en la imagen supera el umbral definido (50%), el robot se detiene completamente.
-### Terminal
-Va mostrando la posicion del GPS y finaliza avisando de que ha llegado a la pelota.
-
 ![Captura](Images/TerminalSigueParedes.png)
 ## Robot Bipedo: BOBY <a name="BOB"></a>
 ## Conclusion <a name="i4"></a>

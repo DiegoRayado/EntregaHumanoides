@@ -20,18 +20,22 @@ No se ha requerido ninguna modificación.
 
 ## Plano Sagital Mejorado <a name="MS"></a>
 ![Archivo](Sagital_mejorado.py)
+![Captura](Imagenes/Sagital.png)
 ### Características Principales
-- Implementación del algoritmo A* para encontrar el camino óptimo desde el punto inicial hasta la meta.
-- Actualización continua de la posición del robot en base a los valores de los sensores de posición.
-- Uso de los sensores de proximidad.
-- Si el robot encuentra una celda no trasnistable retrocede y recalcula una nueva ruta para alcanzar el objetivo.
-
-### Componentes del Código
-
-#### 1. **Configuración del Robot**
-- Se inicializan el robot, los sensores de proximidad y posición, y los motores.
-- Se definen parámetros geométricos del robot e-puck como el radio de las ruedas y la separación entre ellas.
-- Se configura una representación del laberinto en una matriz de 10x12.
+Se ha mejorado significativamente el código original añadiendo mayor estructura, visualización avanzada, controles interactivos y análisis adicional.
+###Mejoras:
+#### Estructura del Código
+- Organización orientada a objetos: Separación clara entre modelo físico, simulación y visualización
+- Documentación completa: Docstrings explicativos y comentarios detallados
+- Mejor manejo de estados: Control del ciclo de vida de la simulación
+#### Visualizacion 
+- Panel informativo en tiempo real: Muestra datos de posición, velocidad y estado
+- Visualización de ZMP: Puntos y transiciones claramente marcados
+- Gráfico de energía: Nuevo gráfico que muestra la evolución energética del sistema
+- Mejor estética: Leyendas y cuadrículas mejoradas
+### Funcionalidad
+- Botones para pausar/reanudar/parar
+- Calculo de energía 
 
 #### 2. **Algoritmo A***
 - Se utiliza una cola de prioridad (`heapq`) para explorar las celdas del laberinto.

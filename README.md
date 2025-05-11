@@ -63,7 +63,7 @@ Con estas modificaciones se consigue que sea capaz de hacer ida-vuelta-ida
 Va mostrando la posicion del GPS y finaliza avisando de que ha llegado a la pelota.
 
 ![Captura](Images/TerminalSigueParedes.png)
-
+## Robot Bipedo: BOBY <a name="BOB"></a>
 ## Conclusion <a name="i4"></a>
 Ambos algoritmos logran alcanzar la meta, pero presentan ciertas limitaciones:
 ### 

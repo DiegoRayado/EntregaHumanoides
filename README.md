@@ -13,7 +13,7 @@ Tal y como se meciona en el guión con esta practica se pretende estudiar la loc
 
 ## Plano Sagital <a name="S"></a>
 No se ha requerido ninguna modificación.
-![Video](https://youtu.be/t9dBL4-J16M)
+[Video](https://youtu.be/t9dBL4-J16M)
 ![Archivo](lipm2d_sagital.py)
 
 ## Plano Sagital Mejorado <a name="MS"></a>

@@ -4,8 +4,8 @@
 2. [Plano Sagital: lipm2d_sagital.py](#S)
 5. [Mejoras: Sagital_Mejorado.py](#MS)
 3. [Plano Frontal: lipm2d_frontal.py](#F)
-4. [Mejoras: lipm2d_frontal.py](#MF)
-6. [Robot Bipedo: BOBY (#BOB)}
+4. [Mejoras: Frontal_Mejorado.py](#MF)
+6. [Robot Bipedo: BOBY (#BOB)]
 7. [Conclusión](#i4)
 
 ## Introducción <a name="Introduccion"></a>

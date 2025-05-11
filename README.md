@@ -2,7 +2,7 @@
 ## Tabla de Contenidos
 1. [Introducción](#Introduccion)
 2. [Plano Sagital: lipm2d_sagital.py](#S)
-5. [Mejoras: lipm2d_sagital.py](#MS)
+5. [Mejoras: Sagital_mejorado.py](#MS)
 3. [Frontal: lipm2d_frontal.py](#F)
 4. [Mejoras: lipm2d_frontal.py](#MF)
 6. [Robot Bipedo: BOBY (#BOB)}
@@ -11,12 +11,15 @@
 ## Introducción <a name="Introduccion"></a>
 Tal y como se meciona en el guión con esta practica se pretende estudiar la locomocion bipeda. Dado que mi apellido es "rayado" y contiene 6 letras, la variable HEIGHT sera igual a 1.2m en toda la práctica.  
 
-## Plano Sagital <a name="F"></a>
+## Plano Sagital <a name="S"></a>
 No se ha requerido ninguna modificación.
 
 ### Video
 [Enlace](https://youtu.be/kf7UdsoY8r0)
 ![Archivo](lipm2d_sagital.py)
+
+## Plano Sagital Mejorado <a name="MS"></a>
+![Archivo](Sagital_mejorado.py)
 ### Características Principales
 - Implementación del algoritmo A* para encontrar el camino óptimo desde el punto inicial hasta la meta.
 - Actualización continua de la posición del robot en base a los valores de los sensores de posición.

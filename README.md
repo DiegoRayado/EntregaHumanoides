@@ -198,4 +198,4 @@ Para estudiar más en profundidad la locomoción bípeda, he desarrollado un rob
 </li>
 </ul>
 
-<p class="my-0">¿Quieres que te explique cómo modificar el código para otros movimientos o tienes alguna parte específica que te gustaría entender más a fondo?</p></div></div></div></div></div>
+</div></div></div></div></div>

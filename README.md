@@ -41,7 +41,7 @@ Se ha realizado la modificacion de los siguientes parámetros:
 <pre> self.zmp_time_change = [0.4, 1, 1.8, 8, 10.0] </code></pre>
 
 Con estas modificaciones se consigue que sea capaz de hacer ida-vuelta-ida
-![Video](https://youtu.be/FZKNNdqZmL8)
+[Video](https://youtu.be/FZKNNdqZmL8)
 
 ## Plano Frontal Mejorado <a name="MF"></a>
 ![Archivo](Frontal_Mejorado.py)

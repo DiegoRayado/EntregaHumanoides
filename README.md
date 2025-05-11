@@ -69,10 +69,8 @@ Con estas modificaciones se consigue que sea capaz de hacer ida-vuelta-ida
 </li>
 </ol>
 
-
-![Captura](Images/TerminalSigueParedes.png)
 ## Robot Bipedo: BOBY <a name="BOB"></a>
-## Conclusion <a name="i4"></a>
+
 Ambos algoritmos logran alcanzar la meta, pero presentan ciertas limitaciones:
 ### 
 A*: Al depender de la odometría, tiende a acumular errores a lo largo del recorrido, a pesar de los esfuerzos por minimizar este efecto. ¿Funcionaría mejor con GPS? En teoría, sí, pero solo en esta simulación, donde el GPS no introduce error (aunque en Webots se puede añadir). En un entorno real, los GPS suelen tener un margen de error superior a un metro, lo que los haría poco útiles para este propósito.

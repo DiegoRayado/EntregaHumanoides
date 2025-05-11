@@ -101,10 +101,6 @@ Con estas modificaciones se consigue que sea capaz de hacer ida-vuelta-ida
 </li>
 </ul>
 </li>
-</ol>
-
-
-<ol class="marker:text-textOff list-decimal">
 <li>
 <p class="my-0"><strong>Cálculos dinámicos</strong>:</p>
 <ul class="marker:text-textOff list-disc">
@@ -148,6 +144,9 @@ Con estas modificaciones se consigue que sea capaz de hacer ida-vuelta-ida
 </ul>
 </li>
 </ol>
+
+
+
 ### Lógica del Programa
 1. **Inicialización**: Se configuran los dispositivos y sensores del robot.
 2. **Detección de objetos verdes**: Se analiza la imagen capturada por la cámara para detectar la presencia de color verde.

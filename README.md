@@ -13,9 +13,7 @@ Tal y como se meciona en el guión con esta practica se pretende estudiar la loc
 
 ## Plano Sagital <a name="S"></a>
 No se ha requerido ninguna modificación.
-
-### Video
-[Enlace](https://youtu.be/kf7UdsoY8r0)
+![Video](https://youtu.be/kf7UdsoY8r0)
 ![Archivo](lipm2d_sagital.py)
 
 ## Plano Sagital Mejorado <a name="MS"></a>
@@ -42,9 +40,9 @@ Se ha realizado la modificacion de los siguientes parámetros:
 <pre> self.zmp_y = [0.4, 0.8, 0.4, 0.8, 0.4, 0.8, 0.4] </code></pre>
 <pre> self.zmp_time_change = [0.4, 1, 1.8, 8, 10.0] </code></pre>
 
-## SigueParedes con GPS <a name="Sigueparedes"></a>
-### Video
-[Enlace](https://youtu.be/G5IKbE7ssrU)
+Con estas modificaciones se consigue que sea capaz de hacer ida-vuelta-ida
+![Video](https://youtu.be/G5IKbE7ssrU)
+
 ### Descripcion
 Este controlador tiene como finalidad localizar una pelota verde y mandar la posición de la misma. 
 ### Uso del turretSlot

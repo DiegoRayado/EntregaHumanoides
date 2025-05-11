@@ -102,6 +102,52 @@ Con estas modificaciones se consigue que sea capaz de hacer ida-vuelta-ida
 </ul>
 </li>
 </ol>
+
+
+<ol class="marker:text-textOff list-decimal">
+<li>
+<p class="my-0"><strong>Cálculos dinámicos</strong>:</p>
+<ul class="marker:text-textOff list-disc">
+<li>
+<p class="my-0">Posición utilizando las ecuaciones del LIPM: <code>y = y₀·cosh(t/Tc) + Tc·ẏ₀·sinh(t/Tc)</code></p>
+</li>
+<li>
+<p class="my-0">Velocidad: <code>ẏ = (y₀·sinh(t/Tc)/Tc) + ẏ₀·cosh(t/Tc)</code></p>
+</li>
+<li>
+<p class="my-0">Aceleración: <code>ÿ = (y₀/(Tc²))·cosh(t/Tc) + (ẏ₀/Tc)·sinh(t/Tc)</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p class="my-0"><strong>Energía orbital</strong><a target="_blank" rel="nofollow noopener" class="citation ml-xs inline" data-state="closed" aria-label="[PDF] The 3D Linear Inverted Pendulum Mode: A simple modeling for a ..." href="https://www.cs.cmu.edu/~hgeyer/Teaching/R16-899B/Papers/KajiitaEA01IEEE_ICIRS.pdf"><span class="relative select-none align-middle undefined -top-px font-sans text-base text-textMain dark:text-textMainDark selection:bg-super/50 selection:text-textMain dark:selection:bg-superDuper/10 dark:selection:text-superDark"><span class="hover:bg-super dark:hover:bg-superDark dark:hover:text-backgroundDark min-w-[1rem] rounded-[0.3125rem] px-[0.3rem] text-center align-middle font-mono text-[0.6rem] tabular-nums hover:text-white py-[0.1875rem] border-borderMain/50 ring-borderMain/50 divide-borderMain/50 dark:divide-borderMainDark/50 dark:ring-borderMainDark/50 dark:border-borderMainDark/50 bg-offsetPlus dark:bg-offsetPlusDark">10</span></span></a>:</p>
+<ul class="marker:text-textOff list-disc">
+<li>
+<p class="my-0">Calculada como <code>E = (1/2)·ẏ² - (g/2h)·y²</code></p>
+</li>
+<li>
+<p class="my-0">Representación de su evolución temporal</p>
+</li>
+<li>
+<p class="my-0">Conservación durante cada fase de apoyo</p>
+</li>
+</ul>
+</li>
+<li>
+<p class="my-0"><strong>Transiciones de apoyo</strong>:</p>
+<ul class="marker:text-textOff list-disc">
+<li>
+<p class="my-0">Cálculo de puntos de cambio de ZMP</p>
+</li>
+<li>
+<p class="my-0">Conservación de la velocidad durante las transiciones</p>
+</li>
+<li>
+<p class="my-0">Ajuste de la posición relativa al nuevo punto de apoyo</p>
+</li>
+</ul>
+</li>
+</ol>
 ### Lógica del Programa
 1. **Inicialización**: Se configuran los dispositivos y sensores del robot.
 2. **Detección de objetos verdes**: Se analiza la imagen capturada por la cámara para detectar la presencia de color verde.

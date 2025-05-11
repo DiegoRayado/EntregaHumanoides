@@ -72,7 +72,8 @@ Con estas modificaciones se consigue que sea capaz de hacer ida-vuelta-ida
 
 Para estudiar más en profundidad la locomoción bípeda, he desarrollado un robot al que he llamado Boby. Boby es más bien medio robot, ya que solo consta de dos piernas movidas por un total de dos servomotores 9G, uno por pierna. El diseño de Boby no supuso un gran desafío en términos generales, ya que se basó en conceptos básicos de robots bípedos simplificados, enfocados en replicar el movimiento esencial de caminar con la menor cantidad de componentes posible. Sin embargo, un componente clave presentó una dificultad significativa: los pies. Con solo un servomotor por pierna, el control del equilibrio y la estabilidad se vuelve extremadamente complicado, y los pies juegan un papel crucial para compensar esta limitación. El diseño de los pies necesitaba garantizar un contacto adecuado con el suelo y una base lo suficientemente amplia para soportar el peso del robot, algo que todavia no esta optimizado.
 
-###Boby anda!!! [Video](https://youtu.be/WE5tCC_DQgw)
+Ficheros 3D y código en la carpeta Boby
+### Boby anda!!! [Video](https://youtu.be/WE5tCC_DQgw)
 
 ### Boby con sus primeros pies
 ![Captura](Imagenes/Boby.png)

@@ -19,7 +19,7 @@ No se ha requerido ninguna modificación.
 ![Archivo](lipm2d_sagital.py)
 
 ## Plano Sagital Mejorado <a name="MS"></a>
-![Archivo](Sagital_mejorado.py)
+![Archivo](Sagital_Mejorado.py)
 ![Captura](Imagenes/Sagital.png)
 ### Características Principales
 Se ha mejorado significativamente el código original añadiendo mayor estructura, visualización avanzada, controles interactivos y análisis adicional.

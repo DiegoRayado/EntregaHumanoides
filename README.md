@@ -1,24 +1,22 @@
 # EntregaHumanoides
 ## Tabla de Contenidos
 1. [Introducción](#Introduccion)
-2. [Frontal: lipm2d_frontal.py](#F)
-3. [Mejoras: lipm2d_frontal.py](#MF)
-4. [Sagital: lipm2d_sagital.py](#S)
+2. [Plano Sagital: lipm2d_sagital.py](#S)
 5. [Mejoras: lipm2d_sagital.py](#MS)
+3. [Frontal: lipm2d_frontal.py](#F)
+4. [Mejoras: lipm2d_frontal.py](#MF)
 6. [Robot Bipedo: BOBY (#BOB)}
 7. [Conclusión](#i4)
 
 ## Introducción <a name="Introduccion"></a>
-Tal y como se meciona en el guión se genera un laberinto de tamaño 10x12 (Según mi nombre) utilizando la herramienta proporcionada. El mapa es el siguiente:
+Tal y como se meciona en el guión con esta practica se pretende estudiar la locomocion bipeda. Dado que mi apellido es "rayado" y contiene 6 letras, la variable HEIGHT sera igual a 1.2m en toda la práctica.  
 
-![Captura](Images/MapaFoto.png)
+## Plano Sagital <a name="F"></a>
+No se ha requerido ninguna modificación.
 
-Se posicion el robot (e-puck) en el inicio (1.5,1.5). Por lo que se determina que el punto final se encuentra en la coordenada (8.5,10.5) ya que es la esquina opuesta. Para resolver este laberinto se han llevado a cabo 2 controladores para poder compararlos entre si. Ambos cuentan con enlace a video para ver su desempeño. 
-
-## Controlador A* <a name="A*"></a>
 ### Video
 [Enlace](https://youtu.be/kf7UdsoY8r0)
-
+![Archivo](lipm2d_sagital.py)
 ### Características Principales
 - Implementación del algoritmo A* para encontrar el camino óptimo desde el punto inicial hasta la meta.
 - Actualización continua de la posición del robot en base a los valores de los sensores de posición.

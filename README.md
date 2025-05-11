@@ -21,7 +21,7 @@ No se ha requerido ninguna modificación.
 ![Captura](Imagenes/Sagital.png)
 ### Características Principales
 Se ha mejorado significativamente el código original añadiendo mayor estructura, visualización avanzada, controles interactivos y análisis adicional.
-###Mejoras:
+### Mejoras:
 #### Estructura del Código
 - Organización orientada a objetos: Separación clara entre modelo físico, simulación y visualización
 - Documentación completa: Docstrings explicativos y comentarios detallados

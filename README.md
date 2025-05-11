@@ -43,10 +43,9 @@ Se ha realizado la modificacion de los siguientes parámetros:
 Con estas modificaciones se consigue que sea capaz de hacer ida-vuelta-ida
 ![Video](https://youtu.be/G5IKbE7ssrU)
 
-### Descripcion
-Este controlador tiene como finalidad localizar una pelota verde y mandar la posición de la misma. 
-### Uso del turretSlot
-El e-puck no tiene incorporado un GPS por lo que se le añade uno. 
+## Plano Frontal Mejorado <a name="MF"></a>
+![Archivo](Frontal_Mejorado.py)
+![Captura](Imagenes/Frontal.png)
 
 ![Captura](Images/Uso_turretSlot.png)
 

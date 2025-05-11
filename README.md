@@ -39,7 +39,8 @@ Se ha mejorado significativamente el código original añadiendo mayor estructur
 
 ## Plano Frontal <a name="F"></a>
 Se ha realizado la modificacion de los siguientes parámetros:
-
+<pre> self.zmp_y = [0.4, 0.8, 0.4, 0.8, 0.4, 0.8, 0.4]
+        self.zmp_time_change = [0.4, 1, 1.8, 8, 10.0] </code></pre>
 
 ## SigueParedes con GPS <a name="Sigueparedes"></a>
 ### Video

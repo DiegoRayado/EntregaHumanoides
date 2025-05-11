@@ -2,8 +2,8 @@
 ## Tabla de Contenidos
 1. [Introducción](#Introduccion)
 2. [Plano Sagital: lipm2d_sagital.py](#S)
-5. [Mejoras: Sagital_mejorado.py](#MS)
-3. [Frontal: lipm2d_frontal.py](#F)
+5. [Mejoras: Sagital_Mejorado.py](#MS)
+3. [Plano Frontal: lipm2d_frontal.py](#F)
 4. [Mejoras: lipm2d_frontal.py](#MF)
 6. [Robot Bipedo: BOBY (#BOB)}
 7. [Conclusión](#i4)
@@ -37,24 +37,8 @@ Se ha mejorado significativamente el código original añadiendo mayor estructur
 - Botones para pausar/reanudar/parar
 - Calculo de energía 
 
-#### 2. **Algoritmo A***
-- Se utiliza una cola de prioridad (`heapq`) para explorar las celdas del laberinto.
-- Se calcula el costo total como la suma del costo hasta la celda actual y la heurística (distancia Manhattan al objetivo).
-- Se almacena el camino recorrido en un diccionario `came_from` y se reconstruye la ruta desde la meta hasta el inicio.
-
-#### 3. **Odometría**
-- Se actualizan las coordenadas `(x, y, theta)` del robot basándose en la diferencia de posición de las ruedas.
-- Se consideran los desplazamientos diferenciales para estimar la nueva ubicación del robot en el entorno.
-
-#### 4. **Detección de celdas no trasnitables**
-- Se revisan los valores de los sensores de proximidad para detectar si el robot está cerca de una celda no transitable. Si se detecta, se añade su ubicación a la matriz del laberinto y se recalcula la ruta.
-
-#### 5. **Movimiento del Robot**
-- **Reorientación**: Se calcula el ángulo de dirección hacia la siguiente celda y se ajusta la velocidad de los motores para girar correctamente.
-- **Desplazamiento**: Se mueve el robot hacia la siguiente casilla asegurándose de no desviarse del camino planificado.
-### Terminal de Salida
-Aqui podemos ver un fragmento de la terminal de salida de este controlador, se puede apreciar como va calculando la ruta al destino.
-![Captura](Images/TerminalAstar.png)
+## Plano Frontal <a name="F"></a>
+Se ha realizado la modificacion de los siguientes parámetros:
 
 
 ## SigueParedes con GPS <a name="Sigueparedes"></a>

@@ -46,9 +46,62 @@ Con estas modificaciones se consigue que sea capaz de hacer ida-vuelta-ida
 ## Plano Frontal Mejorado <a name="MF"></a>
 ![Archivo](Frontal_Mejorado.py)
 ![Captura](Imagenes/Frontal.png)
-
-![Captura](Images/Uso_turretSlot.png)
-
+<ol class="marker:text-textOff list-decimal">
+<li>
+<p class="my-0"><strong>Vista principal mejorada</strong>:</p>
+<ul class="marker:text-textOff list-disc">
+<li>
+<p class="my-0">Visualización completa del péndulo con línea de conexión y masa</p>
+</li>
+<li>
+<p class="my-0">Representación de los puntos ZMP (Zero Moment Point)</p>
+</li>
+<li>
+<p class="my-0">Trazado de la trayectoria del Centro de Masa (CoM)</p>
+</li>
+<li>
+<p class="my-0">Representación visual de los pies (izquierdo/derecho) utilizando rectángulos con colores diferenciados</p>
+</li>
+</ul>
+</li>
+<li>
+<p class="my-0"><strong>Panel de información en tiempo real</strong>:</p>
+<ul class="marker:text-textOff list-disc">
+<li>
+<p class="my-0">Tiempo actual</p>
+</li>
+<li>
+<p class="my-0">Posición, velocidad y aceleración</p>
+</li>
+<li>
+<p class="my-0">ZMP actual</p>
+</li>
+<li>
+<p class="my-0">Pie activo</p>
+</li>
+<li>
+<p class="my-0">Energía orbital</p>
+</li>
+</ul>
+</li>
+<li>
+<p class="my-0"><strong>Múltiples gráficas de análisis</strong><a target="_blank" rel="nofollow noopener" class="citation ml-xs inline" data-state="closed" aria-label="Phase Portraits of State-Space Models and Differential Equations in ..." href="https://aleksandarhaber.com/phase-portraits-of-state-space-models-and-differential-equations-in-python/"><span class="relative select-none align-middle undefined -top-px font-sans text-base text-textMain dark:text-textMainDark selection:bg-super/50 selection:text-textMain dark:selection:bg-superDuper/10 dark:selection:text-superDark"><span class="hover:bg-super dark:hover:bg-superDark dark:hover:text-backgroundDark min-w-[1rem] rounded-[0.3125rem] px-[0.3rem] text-center align-middle font-mono text-[0.6rem] tabular-nums hover:text-white py-[0.1875rem] border-borderMain/50 ring-borderMain/50 divide-borderMain/50 dark:divide-borderMainDark/50 dark:ring-borderMainDark/50 dark:border-borderMainDark/50 bg-offsetPlus dark:bg-offsetPlusDark">11</span></span></a><a target="_blank" rel="nofollow noopener" class="citation ml-xs inline" data-state="closed" aria-label="Multiple Axes animation — Matplotlib 3.10.3 documentation" href="https://matplotlib.org/stable/gallery/animation/multiple_axes.html"><span class="relative select-none align-middle undefined -top-px font-sans text-base text-textMain dark:text-textMainDark selection:bg-super/50 selection:text-textMain dark:selection:bg-superDuper/10 dark:selection:text-superDark"><span class="hover:bg-super dark:hover:bg-superDark dark:hover:text-backgroundDark min-w-[1rem] rounded-[0.3125rem] px-[0.3rem] text-center align-middle font-mono text-[0.6rem] tabular-nums hover:text-white py-[0.1875rem] border-borderMain/50 ring-borderMain/50 divide-borderMain/50 dark:divide-borderMainDark/50 dark:ring-borderMainDark/50 dark:border-borderMainDark/50 bg-offsetPlus dark:bg-offsetPlusDark">12</span></span></a>:</p>
+<ul class="marker:text-textOff list-disc">
+<li>
+<p class="my-0">Gráfica de posición vs. tiempo (tanto del CoM como del ZMP)</p>
+</li>
+<li>
+<p class="my-0">Gráfica de velocidad vs. tiempo</p>
+</li>
+<li>
+<p class="my-0">Retrato de fase (phase portrait) que muestra la relación entre posición y velocidad</p>
+</li>
+<li>
+<p class="my-0">Evolución de la energía orbital a lo largo del tiempo</p>
+</li>
+</ul>
+</li>
+</ol>
 ### Lógica del Programa
 1. **Inicialización**: Se configuran los dispositivos y sensores del robot.
 2. **Detección de objetos verdes**: Se analiza la imagen capturada por la cámara para detectar la presencia de color verde.
